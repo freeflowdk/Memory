@@ -1,5 +1,5 @@
 
-# Memory v1.0.0
+# Memory v1.0.2
 
 # Forudsætninger
 
