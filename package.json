@@ -1,0 +1,15 @@
+{
+  "name": "Memory",
+  "version": "1.0.0",
+  "description": "Memory game for Alinea",
+  "author": "Simon Frederik Skude",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.5.4",
+    "connect": "3.4.1",
+    "body-parser": "1.15.0"
+  }
+}

@@ -1,0 +1,110 @@
+
+.memory-backdrop-top {
+    background: url("../images/bg_bright.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 20vh;
+}
+
+.memory-backdrop-bottom {
+    background: url("../images/bg_tile_dragon.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    height: 80vh;
+}
+
+.memory-game-board {
+    width: 735px;
+    height: 645px;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #DFDDD5;
+}
+
+.memory-game-board_header {
+    color: white;
+    background-color: #4893AE;
+    width: 125px;
+    font-size: 28px;
+    font-family: "verdana";
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+}
+
+.memory-game-board_time {
+    color: white;
+    background-color: transparent;
+    width: 40px;
+    height: 14px;
+    font-size: 16px;
+    font-family: "verdana";
+    border: 2px solid #4893AE;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 12px;
+    border-radius: 10px;
+    position: absolute;
+    right: 60px;
+    top: -42px;
+    color: black;
+}
+
+.memory-game-board_qa {
+    color: white;
+    background-color: #4893AE;
+    font-size: 18px;
+    font-family: "verdana";
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    right: -2px;
+    top: -50px;
+}
+
+.memory-game-board_game {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.memory-game-board_tile {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 106px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform .2s linear;
+    transition: -webkit-transform .2s linear;
+    transition: transform .2s linear;
+    transition: transform .2s linear, -webkit-transform .2s linear;
+}
+
+
+.memory-game-board_tile:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.memory-game-board_tile-hidden {
+    opacity: 0;
+    pointer-events: none;
+}

@@ -1,0 +1,6 @@
+CREATE DATABASE IF NOT EXISTS memory;
+CREATE TABLE memory_scores (
+    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100),
+    score VARCHAR(100)
+);

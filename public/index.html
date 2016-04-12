@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="shrink-to-fit=no, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="memory.js"></script>
+    <script src="https://code.createjs.com/soundjs-0.6.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/memory.css">
+</head>
+<body onload="initGame()">
+    <div class="memory">
+        <div class="memory-backdrop">
+            <div class="memory-backdrop-top"></div>
+            <div class="memory-backdrop-bottom"></div>
+        </div>
+        <div class="memory-game-board">
+            <div class="memory-game-board_header">MEMORY</div>
+            <div id="time" class="memory-game-board_time"></div>
+            <div class="memory-game-board_qa">?</div>
+            <div id="game" class="memory-game-board_game">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
