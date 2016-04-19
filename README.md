@@ -9,7 +9,7 @@
 # Beskrivelse
 
 - Byg databasen ved hjælp af db.sql (ligger i hoved folderen)
-- Byg projektet med NPM INSTALL (kun hvis du har slettet node_modules folderen)
+- Byg projektet med NPM INSTALL
 - Start serveren med NPM START
 - Memory spillet er nu tilgængeligt via browseren på localhost:3000
 
